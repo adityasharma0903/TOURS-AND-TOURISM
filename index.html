@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bharat Yatra - Explore the colourful world with our curated tours and events." />
+    <meta name="keywords" content="travel, tours, events, Bharat Yatra, explore" />
+    <title>Bharat Yatra</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="apple-touch-icon.png"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="favicon-32x32.png"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+</head>
+<body >
+    
+    <!-- Navbar -->
+    <div class="background">
+    <nav class="navbar glass" style="height: 70px">
+        <span>
+            <a href="#home" style="display: flex; align-items: center">
+                <img
+                    src="mountain.png"
+                    width="40"
+                    alt="Mountain Icon"
+                    style="margin: -25px -10px -25px -20px"
+                />
+                <h1 class="logo">&nbsp;Bharat Yatra</h1>
+            </a>
+        </span>
+        <ul class="nav-links">
+            <li><a href="#home" id="pri" class="active cir_border">Home</a></li>
+            <li><a href="#events" id="sec" class="cir_border">Events</a></li>
+            <li><a href="#explore" id="tri" class="cir_border">Explore</a></li>
+            <li><a href="#tours" id="quad" class="cir_border">Tours</a></li>
+            <li>
+                <div>
+                    <input
+                        type="checkbox"
+                        class="checkbox dark"
+                        id="checkbox"
+                    />
+                    <label for="checkbox" class="label">
+                        <i class="fa fa-moon-o" aria-hidden="true"></i>
+                        <i class="fa fa-sun-o" aria-hidden="true"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+            </li>
+        </ul>
+        <img src="menu-icon.png" alt="Menu Button" class="menu-btn" />
+    </nav>
+
+    <!-- Header -->
+    <header id="home">
+        <div class="header-content">
+            <h2 id="quote">Explore the Incredible India</h2>
+            <div class="line"></div>
+            <h1>AN ENCHANTING EXPERIENCE</h1>
+            <a
+                href="#about"
+                class="ctn"
+                onclick="removeall(); document.getElementById('quad').style.border = '2px solid whitesmoke'; document.getElementById('quad').style.borderRadius = '20px';"
+            >Learn more</a>
+        </div>
+    </header>
+    
+    <!-- Events -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="title">
+                <h1 class="dark">Upcoming Events</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <article class="card col">
+                    <img class="card-img" src="ladakh.jpg" alt="Leh & Ladakh" />
+                    <h4 class="dark">Leh & Ladakh</h4>
+                    <p class="font-color">
+                        A popular tourist destination with attractions like the Mulbekh Monastery, Khar Tse Khar Buddha statue, and Apati Maitreya Buddha.
+                    </p>
+                    <a href="#" class="ctn">All Details</a>
+                </article>
+                <article class="card col">
+                    <img src="meghalaya.jpg" alt="Meghalaya Walking Holidays" />
+                    <h4 class="dark">Walking Holidays</h4>
+                    <p class="font-color">
+                        Experience the lush landscapes, serene waterfalls, and mist-covered hills of Meghalaya, The Adobe of Clouds.
+                    </p>
+                    <a href="#" class="ctn">All Details</a>
+                </article>
+                <article class="card col">
+                    <img src="licensed-image.jpeg" alt="Andaman Beaches" />
+                    <h4 class="dark">Andaman Beaches</h4>
+                    <p class="font-color">
+                        Diving in Andaman Beaches is exceptional. The coastal belt surroundings is one of the richest coral reef ecosystems in the world.
+                    </p>
+                    <a href="#" class="ctn">All Details</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore -->
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>Discover The Wonders Of Nature</h1>
+            <div class="line"></div>
+            <p>
+                “Travel makes one modest. You see what a tiny place you occupy in the world.”– Gustav Flaubert <br />Exploring will make you want to pack your bag, book that ticket and jet away.
+            </p>
+            <a href="#" class="ctn">Explore more</a>
+        </div>
+    </section>
+
+    <!-- Tours -->
+    <section class="tours" id="tours">
+        <div class="container row">
+            <div class="col content-col">
+                <h1 class="font-color">UPCOMING TOURS & DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>
+                    Wed 28 Sept 2024: The Majestic Western Ghats, Mahabaleshwar. <br>
+                    Thurs 3 Oct 2024: Mysuru Dasara, Mysore. <br>
+                    Tues 26 Nov 2024: Chemrey Wangchok, Ladakh. <br>
+                    and many more......
+                </p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="image-col">
+                <div class="image-gallery">
+                    <img src="ceremony-monastery-ladakh-festival.jpg" alt="Ladakh Festival" />
+                    <img src="hampi.jpg" alt="Hampi" />
+                    <img src="tawang.jpg" alt="Tawang" />
+                    <img src="kashmir.jpg" alt="Kashmir" height="90%" width="100%"/>
+                </div>
+            </div>
+        </div>
+        <br /><br /><br /><br />
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="title">
+            <h1 class="font-color">About Us</h1>
+            <div class="line"></div>
+        </div>
+        <br />
+        <div id="about_us" > 
+                <span id="about-quad"
+                    ><a href="#home"
+                        style="background-color: lightgrey;"><center>
+                            <div class="about-section" style="color: white;">
+                                <h2>Who We Are</h2>
+                                <p><big>We are a team of passionate individuals dedicated to providing the best services to our clients.</big></p>
+                            </div>
+                            <table style="color: white;" >
+                                <tr>
+                                    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Team Member 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Team Member 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Team Member 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Team Member 4</th>
+                                </tr>
+                                <tr>
+                                    <td>Aditya Sharma(LEADER) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gayatri &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Krishna Nautiyal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gaurav Kundu</td>
+                                </tr>
+                            </table>
+                    
+                        </center>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // JavaScript code for menu button functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuBtn = document.querySelector(".menu-btn");
+            const navlinks = document.querySelector(".nav-links");
+
+            menuBtn.addEventListener("click", () => {
+                navlinks.classList.toggle("mobile-menu");
+            });
+
+            if (window.location.href.endsWith("#about")) {
+                introAboutLogoTransition();
+            }
+        });
+    </script>
+</body>
+</html>
